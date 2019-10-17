@@ -1,0 +1,392 @@
+﻿@media screen and (min-width :300px) {
+	* {
+		margin: 0;
+		font-family: "microsoft yahei";
+		padding: 0;
+	}
+               html,
+	body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		overflow: hidden;
+		width: 100%;
+
+	}
+
+	.box {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin: 0;
+		padding: 0;
+	}
+
+	.box1 {
+		display: flex;
+		background: url(../img/g_banner_background.png);
+		background-size: 100% 100%;
+		flex-wrap: wrap;
+		align-content: space-around;
+		order: 1;
+		width: 100%;
+		height: 70%;
+
+	}
+
+	.box1_top {
+		display: flex;
+	}
+
+	.box1_top_1 {
+		color: white;
+		font-size: 25px;
+		margin-left: 0;
+	}
+
+	.box1_top_1_0 {
+		height: 50px;
+		padding: ;
+		line-height: 50px;
+		color: gainsboro;
+		cursor: pointer;
+		display:none;
+	}
+
+	.box1_top_1_0:hover {
+		color: #FF0000;
+		text-decoration: underline;
+	}
+
+	.box1_top_1_img {
+		vertical-align: middle;
+		
+	}
+
+	.box1_top_2 {
+		font-size: 30px;
+		color: #FFFFFF;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 200px;
+
+	}
+
+	.box1_top_2_ul {
+		list-style-type: none;
+
+	}
+
+	.box1_top_phone {
+		margin: 0;
+
+	}
+
+	.box1_top_2_ul_111 {
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+
+	.box1_top_2_ul_111_span {
+		width: 150px;
+		line-height: 30px;
+		font-size: 20px;
+		color: #fff;
+		background: #fb6c6d;
+		text-align: center;
+		border-radius: 10px;
+	}
+
+	.box1_top_2_ul_margin {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.box1_top_2_ul_222 {
+
+		width: 300px;
+		line-height: 100px;
+		font-size: 30px;
+		color: #fff;
+		background: #fb6c6d;
+		text-align: center;
+		border-radius: 20px;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	.box1_top_2_ul_222:hover {
+		color: red;
+	}
+
+	.box1_top_2_ul_333 {
+		display: inline-block;
+		line-height: 100px;
+		margin-left: 30px;
+		display: none;
+	}
+
+	.box1_top_2_ul_333_img {
+		height: 100px;
+		width: 100px;
+		vertical-align: middle;
+
+	}
+
+	.box1_top_2_ul_444 {
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+	.box2 {
+		display: flex;
+		background: white;
+		background-size: 100% 100%;
+		height: 30%;
+		order: 2;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.box2_1 {
+		display: inline-block;
+		margin: 35px;
+	}
+
+	.footer {
+		width: 100%;
+		background: ghostwhite;
+		text-align: center;
+		height: 50px;
+		line-height: 50px;
+		font-size: 15px;
+		color: gainsboro;
+	}
+
+}
+*{
+    margin:0 auto;
+    padding:0;
+    text-decoration:none;
+}
+html,body{
+    width:100%;
+    height:100%;
+    
+}
+
+
+	.topbar{
+	width: 100%;
+	min-width: 1100px;
+	height: 600px;
+                position:absolute;
+             
+}
+
+	
+	.logo img{
+	height: 60px;
+	width: 60px;
+	margin: 20px 20px 20px 230px;
+	float: left;
+	border-radius: 12px;
+               
+           
+}
+
+	.gonggong{
+		line-height: 90px;
+		font-size: 35px;
+		color: #fff;
+		font-family: '微软雅黑';
+                             
+                                
+	}
+	.nmsl-1{
+		position: absolute;
+		right: 400px;
+		line-height: 90px;
+		font-size: 25px;
+		color:rgb(251,108,109);
+		font-family: '微软雅黑';
+		cursor: pointer;
+                                position:absolute;
+                               
+	}
+	.nmsl-2{
+		position: absolute;
+		right: 330px;
+		line-height: 90px;
+		font-size: 25px;
+		color:rgb(251,108,109);
+		font-family: '微软雅黑';
+		cursor: pointer;
+                                position:absolute;
+                                
+	}
+	.nmsl-3{
+		position: absolute;
+		right: 260px;
+		line-height: 90px;
+		font-size: 25px;
+		color: rgb(251,108,109);
+		font-family: '微软雅黑';
+		cursor: pointer;
+                                position:absolute;
+                             
+	}
+	
+	.nmsl-2:hover{
+		color:#ff5454 ;
+	}
+	.nmsl-3:hover{
+		color:#ff5454 ;
+	}
+	
+	
+	.content {
+	    width: 1100px;
+	    height: 500px;
+	    
+	}
+	
+	.info {
+	    width: 550px;
+	    height: 100%;
+	    margin: 0;
+	    padding: 80px 0 0 60px;
+                  
+	}
+	.all {
+	    position: relative;
+	}
+	.g-for-device {
+	    color: #efefef;
+	    font-family: '微软雅黑';
+	    font-size: 33px;
+	  
+	}
+	.g-for-device:after {
+	    
+	    display: block;
+	    height: 0;
+	    width: 200px;
+	    position: absolute;
+	    bottom: -1px;
+	    border-top: 1px solid #fff;
+                  
+	}
+	.g-for-device  {
+	    font-size: 45px;
+	    font-family: '微软雅黑';
+	    padding-right: 15px;
+                    
+	}
+	.android{
+		font-size: 25px;
+                               
+	}
+	.version {
+	    display: inline-block;
+	    height: 25px;
+	    width: 95px;
+	    color: #fff;
+	    font-size: 20px;
+	    line-height: 30px;
+	    text-align: center;
+	    margin-left: 25px;
+	    border-radius: 5px;
+	    background: #fb6c6d;
+                    
+	}
+	.slogan {
+	    font-size: 30px;
+	    color: #fff;
+	    line-height: 60px;
+                    font-family: 宋体;
+                    
+          
+	}
+	.download {
+	    margin: 20px 0;
+	    height: 120px;
+	    width: 435px;
+                   
+	}
+	.download1 {
+	    float: left;
+	    width: 300px;
+	    height: 100%;
+	    text-align: center;
+	    line-height: 120px;
+	    font-size: 33px;
+	    color: #fff;
+	    border-radius: 10px;
+	    background: #fb6c6d;
+	    cursor: pointer;
+	    
+	   
+	}
+	.download1:hover {
+	    background: #ff5454;
+	}
+	
+	.QRcode {
+	    float: right;
+	    width: 120px;
+	    height: 100%;
+                   
+	}
+	.QRcode img {
+	    height: 100%;
+	    border-radius: 10px;
+                    
+	  }
+	.size {
+	    font-size: 17px;
+	    color: #fff;
+	    margin-right: 40px;
+                    
+	}
+	.date {
+	    font-size: 17px;
+	    color: #fff;
+                    
+	}
+	
+	.example {
+	    width: 315px;
+	    height: 500px;
+	    position: absolute;
+	    right: 200px;
+                    top: 100px;
+	    bottom: 0;
+	    background-repeat: no-repeat;
+	    background-position: top center;
+	    background-size: cover;
+                    
+	}
+	.example {
+	   background-image: url(../img/pre.jpg);
+                   justify-content: center;
+                  align-items: center;
+                  margin：0；
+                  position:absolute;
+	}
+	
+
+	
+	
+	
+	
+
+	
+	
